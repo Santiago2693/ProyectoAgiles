@@ -47,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,15 +64,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[0]" time="0.001"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[0]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[0]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[1]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[1]" time="0"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[1]" time="0.002"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[2]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[2]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[3]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[3]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[4]" time="0.001"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[4]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[4]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[5]" time="0.001"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[5]" time="0"/>

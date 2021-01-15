@@ -1,1 +1,13 @@
 negocio\IBusqueda.class
+negocio\ListaDeChat.class
+negocio\Buscador.class
+negocio\ManejadorSolicitud.class
+negocio\BuscadorUsuario.class
+negocio\Solicitud.class
+negocio\ManejadorSolicitud$resultadoSolicitud.class
+negocio\ManejadorSolicitud$respuesta.class
+negocio\Mensaje.class
+negocio\Usuario.class
+negocio\IConectorBD.class
+negocio\ChatRoom.class
+negocio\AplicationExecute.class

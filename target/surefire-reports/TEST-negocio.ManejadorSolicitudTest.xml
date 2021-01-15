@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="negocio.ManejadorSolicitudTest" time="0.216" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="negocio.ManejadorSolicitudTest" time="0.217" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -47,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,11 +65,11 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="negocio.ManejadorSolicitudTest" name="given_newFriend_when_generarSolicitud_then_addedToList" time="0.004"/>
-  <testcase classname="negocio.ManejadorSolicitudTest" name="given_oldFriend_when_generarSolicitud_then_not_addedToList" time="0.001"/>
-  <testcase classname="negocio.ManejadorSolicitudTest" name="given_newFriend_when_generarSolicitud_then_reenvio" time="0.209"/>
+  <testcase classname="negocio.ManejadorSolicitudTest" name="given_oldFriend_when_generarSolicitud_then_not_addedToList" time="0.002"/>
+  <testcase classname="negocio.ManejadorSolicitudTest" name="given_newFriend_when_generarSolicitud_then_reenvio" time="0.208"/>
   <testcase classname="negocio.ManejadorSolicitudTest" name="given_noFriend_when_removed_then_error" time="0"/>
   <testcase classname="negocio.ManejadorSolicitudTest" name="given_oldFriend_when_generarSolicitud_then_amigos" time="0"/>
   <testcase classname="negocio.ManejadorSolicitudTest" name="given_friendReq_when_accept_then_añadido" time="0.002"/>
   <testcase classname="negocio.ManejadorSolicitudTest" name="given_friendRequest_when_denied_then_rechazado" time="0"/>
-  <testcase classname="negocio.ManejadorSolicitudTest" name="given_newFriend_when_generarSolicitud_then_ok" time="0"/>
+  <testcase classname="negocio.ManejadorSolicitudTest" name="given_newFriend_when_generarSolicitud_then_ok" time="0.001"/>
 </testsuite>
