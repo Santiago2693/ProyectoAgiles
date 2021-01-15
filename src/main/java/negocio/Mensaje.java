@@ -12,7 +12,9 @@ public class Mensaje {
     }
 
     public String getInformacion() {
-        return this.propietario.getUserId() + ":\n "+this.contenido+"\n";
+        String id = this.propietario.getUserId();
+        String contenido = this.contenido;
+        return id + ":\n "+ contenido +"\n";
     }
 
     public String enviarMensaje(ChatRoom chatroom){

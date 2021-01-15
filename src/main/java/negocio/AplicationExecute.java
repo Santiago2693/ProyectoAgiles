@@ -44,6 +44,8 @@ public class AplicationExecute {
         if (mike.getListaDeSolicitudes().equals(s)){
             System.out.println("SERVER: El usuario: "+santiago.getUserId()+" te ha enviado una solicitud de amistad");
         }
-
+        if (m.procesarSolicitud(m.getSolicitud(),mike,true) == ManejadorSolicitud.resultadoSolicitud.aceptada){
+            System.out.println("SERVER: El usuario: "+mike.getUserId()+" ha aceptado la solicitud de amistad");
+        }
     }
 }
