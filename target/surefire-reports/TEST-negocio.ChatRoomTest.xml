@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="negocio.ChatRoomTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="negocio.ChatRoomTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,5 +65,5 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="negocio.ChatRoomTest" name="given_newChatRoom_when_imprimirMensajes_then_voidMessage" time="0"/>
-  <testcase classname="negocio.ChatRoomTest" name="given_oldChatRoom_when_imprimirMensajes_then_Messages" time="0.002"/>
+  <testcase classname="negocio.ChatRoomTest" name="given_oldChatRoom_when_imprimirMensajes_then_Messages" time="0"/>
 </testsuite>

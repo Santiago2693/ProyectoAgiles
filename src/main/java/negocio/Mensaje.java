@@ -12,7 +12,7 @@ public class Mensaje {
     }
 
     public String getInformacion() {
-        return this.propietario.getId() + ":\n "+this.contenido+"\n";
+        return this.propietario.getUserId() + ":\n "+this.contenido+"\n";
     }
     public String enviarMensaje(ChatRoom chatRoom){
         chatRoom.anadirMensaje(this);
