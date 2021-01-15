@@ -42,4 +42,8 @@ public class ChatRoom {
         return this.idChat;
     }
 
+    public String enviarMensaje(Mensaje mensaje){
+        anadirMensaje(mensaje);
+        return actualizar();
+    }
 }

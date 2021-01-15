@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="negocio.BuscadorUsuarioTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="negocio.BuscadorUsuarioTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Users\joset\.jdks\corretto-1.8.0_275\jre\bin"/>
     <property name="java.vm.version" value="25.275-b01"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gueva\Documents\GitHub\ProyectoAgiles"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Repositorios\Publico\ProyectoAgiles"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,46 +17,46 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\gueva\Documents\GitHub\ProyectoAgiles"/>
+    <property name="user.dir" value="D:\Repositorios\Publico\ProyectoAgiles"/>
     <property name="java.runtime.version" value="1.8.0_275-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\gueva\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\joset\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Git\cmd;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%JAVA_HOME%\bin;C:\Users\gueva\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\gueva\AppData\Local\Programs\Python\Python38-32\;C:\Users\gueva\AppData\Local\Microsoft\WindowsApps;C:\Users\gueva\AppData\Local\GitHubDesktop\bin;C:\Users\gueva\AppData\Local\atom\bin;C:\Users\gueva\AppData\Local\Programs\Microsoft VS Code\bin;."/>
-    <property name="maven.conf" value="C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.library.path" value="C:\Users\joset\.jdks\corretto-1.8.0_275\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\joset\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\joset\AppData\Local\Programs\Python\Python38\;C:\Users\joset\AppData\Local\Programs\Python\Launcher\;C:\Users\joset\AppData\Local\Microsoft\WindowsApps;C:\Users\joset\AppData\Local\atom\bin;C:\Users\joset\AppData\Local\Microsoft\WindowsApps;;C:\Users\joset\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\gueva"/>
+    <property name="user.home" value="C:\Users\joset"/>
     <property name="user.timezone" value="America/Bogota"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="gueva"/>
-    <property name="java.class.path" value="C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar"/>
+    <property name="user.name" value="joset"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre"/>
+    <property name="java.home" value="C:\Users\joset\.jdks\corretto-1.8.0_275\jre"/>
     <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_275"/>
-    <property name="java.ext.dirs" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\resources.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\rt.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\sunrsasign.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\jsse.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\jce.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\charsets.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\lib\jfr.jar;C:\Users\gueva\.jdks\corretto-1.8.0_275\jre\classes"/>
+    <property name="java.ext.dirs" value="C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\resources.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\rt.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\sunrsasign.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\jsse.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\jce.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\charsets.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\lib\jfr.jar;C:\Users\joset\.jdks\corretto-1.8.0_275\jre\classes"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="maven.home" value="C:\Users\gueva\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -67,17 +67,17 @@
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[0]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[0]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[1]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[1]" time="0.002"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[1]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[2]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[2]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[3]" time="0"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[3]" time="0.001"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[3]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[4]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[4]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[5]" time="0.001"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[5]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[5]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[6]" time="0"/>
-  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[6]" time="0.001"/>
+  <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[6]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_userid_when_validarId_then_ok[7]" time="0"/>
   <testcase classname="negocio.BuscadorUsuarioTest" name="given_invalid_userid_when_validarId_then_ok[7]" time="0.001"/>
 </testsuite>

@@ -14,8 +14,8 @@ public class Mensaje {
     public String getInformacion() {
         return this.propietario.getUserId() + ":\n "+this.contenido+"\n";
     }
-    public String enviarMensaje(ChatRoom chatRoom){
-        chatRoom.anadirMensaje(this);
-        return chatRoom.actualizar();
+
+    public String enviarMensaje(ChatRoom chatroom){
+        return chatroom.enviarMensaje(this);
     }
 }

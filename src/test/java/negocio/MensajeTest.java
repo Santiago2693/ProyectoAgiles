@@ -23,6 +23,6 @@ public class MensajeTest {
     @Test
     public void given_ChatRoom_when_sendNewMsg_then_ok(){
         Mensaje m2 = new Mensaje("Saquen una hojita",false,u1);
-        assertEquals(m2.getInformacion(),m2.enviarMensaje(c));
+        assertEquals(m2.getInformacion(), c.enviarMensaje(m2));
     }
 }
