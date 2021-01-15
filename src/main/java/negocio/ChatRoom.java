@@ -33,10 +33,6 @@ public class ChatRoom {
         }
         return msj;
     }
-    public String actualizar(){
-        // solo imprime el ultimo mensaje
-        return this.mensajes.get(this.mensajes.size()-1).getInformacion();
-    }
 
     public String getID(){
         return this.idChat;
@@ -44,6 +40,7 @@ public class ChatRoom {
 
     public String enviarMensaje(Mensaje mensaje){
         anadirMensaje(mensaje);
-        return actualizar();
+        int ultimoMsj = this.mensajes.size() - 1;
+        return this.mensajes.get(ultimoMsj).getInformacion();
     }
 }
