@@ -24,7 +24,7 @@ public class ChatRoom {
         String msj ="";
         if (!this.mensajes.isEmpty()) {
             for (int i = 0; i < this.mensajes.size(); i++) {
-                msj+=mensajes.get(i).getInformacion();
+                msj+= getFromMsgList(i);
                 //no falta poner la logica de imprimir mensaje + usuario?
             }
         }
@@ -41,6 +41,10 @@ public class ChatRoom {
     public String enviarMensaje(Mensaje mensaje){
         anadirMensaje(mensaje);
         int ultimoMsj = this.mensajes.size() - 1;
-        return this.mensajes.get(ultimoMsj).getInformacion();
+        return getFromMsgList(ultimoMsj);
+    }
+
+    public String getFromMsgList(int index) {
+        return this.mensajes.get(index).getInformacion();
     }
 }

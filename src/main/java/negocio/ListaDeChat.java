@@ -7,11 +7,11 @@ public class ListaDeChat {
     public ListaDeChat(){
         this.chats = new ArrayList<ChatRoom>();
     }
-    public void añadirChat(ChatRoom chat){
-        chats.add(chat);
+    public void añadirChat(ChatRoom nuevoChat){
+        chats.add(nuevoChat);
     }
-    public void eliminarChat(ChatRoom e){
-        chats.remove(e);
+    public void eliminarChat(ChatRoom chatAEliminar){
+        chats.remove(chatAEliminar);
     }
     public ArrayList<ChatRoom> getLista(){
         return this.chats;

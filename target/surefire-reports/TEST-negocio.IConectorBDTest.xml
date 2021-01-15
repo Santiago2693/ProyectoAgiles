@@ -64,6 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="negocio.IConectorBDTest" name="given_userId_when_is_found_then_ok" time="0.31"/>
-  <testcase classname="negocio.IConectorBDTest" name="given_userId_when_not_found_then_ok" time="0.001"/>
+  <testcase classname="negocio.IConectorBDTest" name="given_userId_when_is_found_then_ok" time="0.311"/>
+  <testcase classname="negocio.IConectorBDTest" name="given_userId_when_not_found_then_ok" time="0"/>
 </testsuite>

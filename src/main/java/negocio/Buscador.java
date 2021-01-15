@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Buscador implements  IBusqueda<ChatRoom> {
     private ArrayList<ChatRoom> listaBusqueda;
-    public Buscador(ArrayList<ChatRoom> m){
-        this.listaBusqueda = m;
+    public Buscador(ArrayList<ChatRoom> listaChats){
+        this.listaBusqueda = listaChats;
     }
 
     public ChatRoom buscar(String id){
