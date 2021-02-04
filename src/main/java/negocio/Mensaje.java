@@ -16,6 +16,9 @@ public class Mensaje {
         String contenido = this.contenido;
         return id + ":\n "+ contenido +"\n";
     }
+    public void editarIndormacion(String nuevoContenido){
+        this.contenido = nuevoContenido;
+    }
 
     public String enviarMensaje(ChatRoom chatroom){
         return chatroom.enviarMensaje(this);

@@ -12,6 +12,9 @@ public class ChatRoom {
         this.usuarios = users;
         this.mensajes = new ArrayList<Mensaje>();
     }
+    public void renombrar(String nuevoNombre){
+        this.idChat = nuevoNombre;
+    }
 
     public void anadirUsuario(Usuario usuario){
         usuarios.add(usuario);
@@ -42,6 +45,10 @@ public class ChatRoom {
         anadirMensaje(mensaje);
         int ultimoMsj = this.mensajes.size() - 1;
         return getFromMsgList(ultimoMsj);
+    }
+
+    public void elmininarMensaje(Mensaje mensaje){
+        this.mensajes.remove(mensaje);
     }
 
     public String getFromMsgList(int index) {

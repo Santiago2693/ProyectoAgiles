@@ -91,7 +91,8 @@ public class Usuario {
         return ListaDeSolicitudes;
     }
 
-    public boolean elminiarAmigo(Usuario aEliminar){
+    public boolean elminiarAmigo(Usuario aEliminar)
+    {
         return this.ListaDeAmigos.remove(aEliminar);
     }
 

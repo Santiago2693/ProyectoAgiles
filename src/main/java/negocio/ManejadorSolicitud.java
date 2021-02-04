@@ -9,6 +9,9 @@ public class ManejadorSolicitud {
         this.solicitud = new Solicitud(origen, false);
         return this.notify(target);
     }
+    public void eliminarSolicitud(Solicitud s, Usuario target){
+        target.getListaDeSolicitudes().remove(s);
+    }
     public respuesta notify(Usuario target){
         return target.actualizar();
     }
@@ -20,6 +23,7 @@ public class ManejadorSolicitud {
         if (respuesta){
             solicitado.addAmigo(s.getEmisorSolicitud());
             solicitado.eliminarSolicitud(s);
+            s.getEmisorSolicitud().addAmigo(solicitado);
             return resultadoSolicitud.aceptada;
         }
         else{
